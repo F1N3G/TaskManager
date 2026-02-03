@@ -1,0 +1,2 @@
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\obj\Debug\net9.0\TaskManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\obj\Debug\net9.0\TaskManager.csproj.CoreCompileInputs.cache

@@ -1,0 +1,11 @@
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\bin\Debug\net9.0\TaskManager.Core.deps.json
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\bin\Debug\net9.0\TaskManager.Core.dll
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\bin\Debug\net9.0\TaskManager.Core.pdb
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\obj\Debug\net9.0\TaskManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\obj\Debug\net9.0\TaskManager.Core.AssemblyInfoInputs.cache
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\obj\Debug\net9.0\TaskManager.Core.AssemblyInfo.cs
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\obj\Debug\net9.0\TaskManager.Core.csproj.CoreCompileInputs.cache
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\obj\Debug\net9.0\TaskManager.Core.dll
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\obj\Debug\net9.0\refint\TaskManager.Core.dll
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\obj\Debug\net9.0\TaskManager.Core.pdb
+D:\ULBS\Anul3\semestrul 1\Modul 1\Medii&InstrumenteDeProgramare\TaskManager\TaskManagerApp\TaskManager.Core\obj\Debug\net9.0\ref\TaskManager.Core.dll

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- IMPORTANT: ca să NU mai ai duplicate AssemblyInfo -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManager.Core\TaskManager.Core.csproj" />
+  </ItemGroup>
+
+</Project>

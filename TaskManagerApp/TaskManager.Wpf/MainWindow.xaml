@@ -1,0 +1,59 @@
+﻿<Window x:Class="TaskManager.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:TaskManager.Wpf.ViewModels"
+        Title="Task Manager" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <DockPanel Grid.Row="0" LastChildFill="False" Margin="0,0,0,10">
+            <TextBlock Text="Task Manager" FontSize="22" FontWeight="SemiBold" Margin="0,0,18,0"/>
+            <Button Content="Add Task" Command="{Binding AddTaskCommand}" Padding="12,6" Margin="0,0,8,0"/>
+            <Button Content="Add Reminder" Command="{Binding AddReminderCommand}" Padding="12,6" Margin="0,0,8,0"/>
+            <Button Content="Complete/Undo" Command="{Binding ToggleCompleteCommand}" Padding="12,6" Margin="0,0,8,0"/>
+            <Button Content="Delete" Command="{Binding DeleteCommand}" Padding="12,6" Margin="0,0,8,0"/>
+        </DockPanel>
+
+        <!-- Search + Import/Export -->
+        <DockPanel Grid.Row="1" LastChildFill="False" Margin="0,0,0,10">
+            <TextBlock Text="Search:" VerticalAlignment="Center" Margin="0,0,8,0"/>
+            <TextBox Width="320" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,12,0"/>
+
+            <Button Content="Export TXT" Command="{Binding ExportTextCommand}" Padding="12,6" Margin="0,0,8,0"/>
+            <Button Content="Import TXT" Command="{Binding ImportTextCommand}" Padding="12,6" Margin="0,0,8,0"/>
+            <Button Content="Export BIN" Command="{Binding ExportBinaryCommand}" Padding="12,6" Margin="0,0,8,0"/>
+            <Button Content="Import BIN" Command="{Binding ImportBinaryCommand}" Padding="12,6" Margin="0,0,8,0"/>
+        </DockPanel>
+
+        <!-- Grid -->
+        <DataGrid Grid.Row="2"
+                  ItemsSource="{Binding Items}"
+                  SelectedItem="{Binding Selected}"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" Width="60"/>
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="*"/>
+                <DataGridTextColumn Header="Type" Binding="{Binding Type}" Width="110"/>
+                <DataGridTextColumn Header="Created" Binding="{Binding CreatedAt}" Width="180"/>
+                <DataGridTextColumn Header="Details" Binding="{Binding GetDetails()}" Width="380"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <TextBlock Grid.Row="3" Margin="0,10,0,0" Opacity="0.7"
+                   Text="Select an item to enable Complete/Delete. Use Export/Import for TXT/BIN."/>
+    </Grid>
+</Window>

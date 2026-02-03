@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-windows7.0": {
+      "TaskManager.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/TaskManager.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManager.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskManager.Core/1.0.0": {
+      "type": "project",
+      "path": "../TaskManager.Core/TaskManager.Core.csproj",
+      "msbuildProject": "../TaskManager.Core/TaskManager.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0-windows7.0": [
+      "TaskManager.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\maniu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\ULBS\\Anul3\\semestrul 1\\Modul 1\\Medii&InstrumenteDeProgramare\\TaskManager\\TaskManagerApp\\TaskManager.Wpf\\TaskManager.Wpf.csproj",
+      "projectName": "TaskManager.Wpf",
+      "projectPath": "D:\\ULBS\\Anul3\\semestrul 1\\Modul 1\\Medii&InstrumenteDeProgramare\\TaskManager\\TaskManagerApp\\TaskManager.Wpf\\TaskManager.Wpf.csproj",
+      "packagesPath": "C:\\Users\\maniu\\.nuget\\packages\\",
+      "outputPath": "D:\\ULBS\\Anul3\\semestrul 1\\Modul 1\\Medii&InstrumenteDeProgramare\\TaskManager\\TaskManagerApp\\TaskManager.Wpf\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\maniu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {
+            "D:\\ULBS\\Anul3\\semestrul 1\\Modul 1\\Medii&InstrumenteDeProgramare\\TaskManager\\TaskManagerApp\\TaskManager.Core\\TaskManager.Core.csproj": {
+              "projectPath": "D:\\ULBS\\Anul3\\semestrul 1\\Modul 1\\Medii&InstrumenteDeProgramare\\TaskManager\\TaskManagerApp\\TaskManager.Core\\TaskManager.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
